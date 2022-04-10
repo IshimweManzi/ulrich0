@@ -1,0 +1,78 @@
+*
+body
+{
+    background-image: url(paper15.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+form
+{
+   height: 530px;
+   width: 330px;
+   background-color: rgba(255, 255, 255, 0.267);
+   margin-top: 12%;
+   margin-left: 5%;
+   border-radius: 12px;
+   box-shadow: 0px 1px  4px white;
+}
+
+.content
+{
+    
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.356);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px white;
+    transition: .5s ease;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.image
+{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 100px;
+    box-shadow: 0px 2px 4px white;
+    transition: .5s ease;
+}
+
+
+.image:hover
+{
+    padding-left: 5px;
+    padding-right: 5px ; 
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    background-color: rgba(105, 102, 102, 0.247);
+}
+
+.content:hover
+{
+    padding-left: 5px;
+    padding-right: 5px ;
+    background-color: rgba(105, 102, 102, 0.247);
+}
+ .text
+ {
+     font-family: Arial;
+     color: white;
+     font-weight: bold;
+ }
+
+
+ .photo
+ {
+     height: 170px;
+     width: 170px;
+     border-radius: 1000px
+ }
